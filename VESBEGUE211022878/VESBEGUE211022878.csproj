@@ -105,8 +105,10 @@
     <Content Include="About.aspx" />
     <Content Include="adminAsset\addcategory.aspx" />
     <Content Include="adminAsset\adminIndex.aspx" />
+    <Content Include="adminAsset\adminLogin.aspx" />
     <Content Include="adminAsset\allStudent.aspx" />
     <Content Include="adminAsset\allTutor.aspx" />
+    <Content Include="adminAsset\newTutor.aspx" />
     <Content Include="adminAsset\updatecategory.aspx" />
     <Content Include="App_Data\VESDB.mdf" />
     <Content Include="App_Data\VESDB_log.ldf">
@@ -358,6 +360,7 @@
     <Content Include="images\product\product-3.png" />
     <Content Include="login.aspx" />
     <Content Include="registration.aspx" />
+    <Content Include="reviewProfil.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -470,6 +473,13 @@
     <Compile Include="adminAsset\adminIndex.aspx.designer.cs">
       <DependentUpon>adminIndex.aspx</DependentUpon>
     </Compile>
+    <Compile Include="adminAsset\adminLogin.aspx.cs">
+      <DependentUpon>adminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminAsset\adminLogin.aspx.designer.cs">
+      <DependentUpon>adminLogin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminAsset\allStudent.aspx.cs">
       <DependentUpon>allStudent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -483,6 +493,13 @@
     </Compile>
     <Compile Include="adminAsset\allTutor.aspx.designer.cs">
       <DependentUpon>allTutor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminAsset\newTutor.aspx.cs">
+      <DependentUpon>newTutor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminAsset\newTutor.aspx.designer.cs">
+      <DependentUpon>newTutor.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminAsset\updatecategory.aspx.cs">
       <DependentUpon>updatecategory.aspx</DependentUpon>
@@ -545,6 +562,13 @@
     </Compile>
     <Compile Include="registration.aspx.designer.cs">
       <DependentUpon>registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reviewProfil.aspx.cs">
+      <DependentUpon>reviewProfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reviewProfil.aspx.designer.cs">
+      <DependentUpon>reviewProfil.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

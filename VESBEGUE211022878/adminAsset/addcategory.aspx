@@ -39,7 +39,7 @@
             <div class="col-md-5">
                 <div class="widget-area-2 lorvens-box-shadow">
                     <div class="lorvens-widget">
-                        <form runat="server">
+                      
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Enter New Category</label>
                                 <asp:TextBox runat="server" ID="txtcat" CssClass="form-control" placeholder="Enter Category"></asp:TextBox>
@@ -49,7 +49,7 @@
                             <asp:Button runat="server" ID="btnAdd" OnClick="btnAdd_Click"
                                 CssClass="btn btn-primary" Text="Add New" />
 
-                        </form>
+                       
                     </div>
                 </div>
 

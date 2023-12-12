@@ -30,7 +30,7 @@
 
                     <div class="table-div">
                         <div class="table-responsive">
-                            <form id="form1" runat="server">
+                        
                                 <table class="table">
                                     <thead>
                                         <tr>
@@ -64,7 +64,7 @@
 
                                     </tbody>
                                 </table>
-                            </form>
+                          
                         </div>
                     </div>
 

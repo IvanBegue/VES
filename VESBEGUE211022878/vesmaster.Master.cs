@@ -13,5 +13,20 @@ namespace VESBEGUE211022878
         {
 
         }
+
+        protected void SignOutlink_Click(object sender, EventArgs e)
+        {
+            logOut();
+        }
+
+        void logOut()
+        {
+          
+            Session.RemoveAll();
+           
+            Session.Abandon();
+           
+            Response.Redirect("~/ home.aspx");
+        }
     }
 }

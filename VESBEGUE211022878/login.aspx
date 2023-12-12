@@ -21,29 +21,32 @@
 			<div class="row justify-content-center g-0">
 				<div class="col-lg-5 col-md-5 col-12">
 					<div class="box box-body">
-						<div class="content-top-agile pb-0 pt-20">
+						<div class="content-top-agile pb-0 pt-20 ">
 							<h2 class="text-primary">Let's Get Started</h2>
-							<p class="mb-0">Login as Student</p>							
+							<p class="mb-0 text-center">Login as Student</p>							
 						</div>
 						<div class="p-40">
-							<form id="form1" runat="server">
+						
 								<div class="form-group">
 									<div class="input-group mb-15">
 										<span class="input-group-text bg-transparent"><i class="ti-user"></i></span>
-										<input type="text" class="form-control ps-15 bg-transparent" placeholder="Email">
+										<asp:textbox runat="server" CssClass="form-control ps-15 bg-transparent" Placeholder="Email"></asp:textbox>
+										
 									</div>
 								</div>
 								<div class="form-group">
 									<div class="input-group mb-15">
 										<span class="input-group-text  bg-transparent"><i class="ti-lock"></i></span>
-										<input type="password" class="form-control ps-15 bg-transparent" placeholder="Password">
+										<asp:TextBox runat="server" TextMode="Password" CssClass="form-control ps-15 bg-transparent" placeholder="Password"></asp:TextBox>
+										
 									</div>
 								</div>
 								  <div class="row">
 									<div class="col-6">
 									  <div class="checkbox ms-5">
-										<input type="checkbox" id="basic_checkbox_1">
-										<label for="basic_checkbox_1" class="form-label">Remember Me</label>
+										  <asp:CheckBox runat="server" ID="chkremember" Text="Remember me"/>
+										
+										
 									  </div>
 									</div>
 									<!-- /.col -->
@@ -58,10 +61,10 @@
 									</div>
 									<!-- /.col -->
 								  </div>
-							</form>	
+							
 							<div class="text-center">
-								<p class="mt-15 mb-0">Don't have an account? <a href="~/registration.aspx" class="text-warning ms-5">Register</a></p>
-								<p class="mt-15 mb-0">Become a  <a href="~/registration.aspx" class="text-info ms-5">Tutor </a>on EduLearn</p>
+								<p class="mt-15 mb-0 text-center">Don't have an account? <a href="~/registration.aspx" class="text-warning ms-5">Register</a></p>
+								<p class="mt-15 mb-0 text-center">Login as<a href="~/registration.aspx" class="text-info ms-5">Tutor </a>instead</p>
 							</div>	
 						</div>
 					</div>								

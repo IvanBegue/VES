@@ -8,7 +8,7 @@
 					<div class="text-center mt-80">
 						<h1 class="box-title text-white mb-30">Find Your Online Course</h1>	
 					</div>
-                    <form  ID="form1" runat="server" >
+                   
                         <div class="cours-search mb-30">
 								<div class="input-group">
 									<asp:TextBox runat="server" ID="txtsearch"  cssClass="form-control" placeholder="What do you want to learn today?"></asp:TextBox>
@@ -19,7 +19,7 @@
 									</div>
 								</div>
 							</div>
-						</form>	
+					
 					<div class="text-center">
 						<asp:HyperLink runat="server" cssClass="btn btn-outline text-white" Text="Browse Courses List" NavigateUrl="~/courses.aspx"></asp:HyperLink>
 						

@@ -17,11 +17,19 @@ namespace VESBEGUE211022878.adminAsset
         private string _conString = WebConfigurationManager.ConnectionStrings["VESDB"].ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["adminid"] == null || string.IsNullOrEmpty(Session["adminid"].ToString()))
+            {
+                Response.Redirect("~/adminAsset/adminLogin.aspx");
+            }
+            else
+            {
+                getTotalsStudent();
+                getTotalsTutor();
+                getTotalscourse();
+                getNewTutor();
+            }
 
-            getTotalsStudent();
-            getTotalsTutor();
-            getTotalscourse();
-            getNewTutor();
+           
         }
 
         private void getTotalsStudent()
